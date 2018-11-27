@@ -1,7 +1,7 @@
 provider "google"
 {
 
-  credentials = ""
+  credentials = "${var.gcloudPassword}"
   project = ""
   region = ""
   
